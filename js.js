@@ -107,30 +107,105 @@
 // };
 // makeNoise();
 
+// let x = 10;
+// if (true){
+//     let y = 20;
+//     var z = 30;
+//     console.log(x + y + z)
+// };
 
 
+// const halve = function(n){
+//     return n * 2;
+// };
+// let n = 10; 
+// console.log(halve(100));
+// console.log(n);
+
+// const humms = function(factor){
+//     const ingredient = function(amount , unit, name) {
+//         let ingredientAmount = amount * factor;
+//         if (ingredientAmount > 1){
+//             unit += "s";
+//         }
+//         console.log(`${ingredientAmount} ${unit} ${name}`);
+//     }
+//     ingredient(1, "can" , "chickpeas");
+//     ingredient(0.25 , "cup", "thini");
+//     ingredient(0.25 , "cup", "lemon juice");
+//     ingredient(1, "clove", "gralic");
+//     ingredient(2, "tablespoon", "olive oil");
+//     ingredient(0.5 ,"teaspoon" , "cumin");
+// };
+// console.log(humms);
 
 
+// console.log("the future says: ", future())
+// function future() {
+//     return `you'll never have flying cars`;
+// }
 
 
+// const power = (base , exponent ) => {
+//     let result = 1;
+//     for (let count = 0 ; count < exponent; count++){
+//         result += base;
+//     }
+//     return result;
+// }
+// function greet(who){
+//     console.log(`hello ${who}`)
+// }
+// greet("harry");
+// console.log("bye")
+
+// function chicken(){
+//     return egg();
+// }
+// function egg(){
+//     return chicken();
+// }
+// console.log(chicken()+ true + "came first.");
 
 
+// call stack
 
 
+// function square (x){return x * x ;}
+// console.log(square(4 ,true , "hedgehog"))
 
+// function minus(a , b) {
+//     if (b === undefined) return -a;
+//         else return a-b;
+// }
+// console.log(minus(10))
 
+// function  power(base , exponent = 2){
+//     let result = 1;
+//     for (let count = 0 ; count < exponent ; count++){
+//         console.log(result)
+//         result *= base;
+//     }
+//     return result;
+// }
+// // console.log(power(4));
+// console.log(power(2 , 6))
 
+// function multiplier(factor) {
+//     return number => number * factor;
+// }
+// let twice = multiplier(2);
+// console.log(twice(2));
+// console.log(twice(5));
 
-
-
-
-
-
-
-
-
-
-
+// function power (base , exponent) {
+//     if (exponent == 0) {
+//         return 1;
+//     } else {
+//         return base * power(base, exponent - 1)
+//     }
+// }
+// console.log(power(2, 4));
 
 
 
